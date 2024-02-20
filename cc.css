@@ -1,0 +1,110 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+i {
+
+    color: black;
+}
+
+#display,
+#result {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    left: 40%;
+    border: 1px solid black;
+}
+
+#fromCurrency {
+    position: relative;
+    left: 40%;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#toCurrency {
+    position: relative;
+    left: 40%;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.btn {
+    position: relative;
+    left: 40%;
+
+}
+
+#btn2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+#btn2:hover {
+    background-color: orange;
+    transition: all ease 0.3s;
+
+}
+
+#btn1 {
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+
+#btn3 {
+    height: 100px;
+    width: 305px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+#btn1:hover {
+    background-color: orange;
+    transition: all ease 0.3s;
+
+}
+
+#btn3:hover {
+    background-color: orange;
+    transition: all ease 0.3s;
+}
+
+.numpad {
+    position: relative;
+    left: 40%;
+
+}
+
+#chng {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    float: right;
+    right: 30%;
+    top: 20%;
+}
+
+#cal {
+    position: relative;
+    left: 40%;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+
+}
